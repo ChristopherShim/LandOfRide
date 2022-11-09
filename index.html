@@ -1,0 +1,1206 @@
+<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
+<!--  Last Published: Wed Nov 09 2022 18:46:42 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="63603fc75fc55ee1880ad401" data-wf-site="63603fc75fc55e2b290ad3fe">
+<head>
+  <meta charset="utf-8">
+  <title>LOR-Mock</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/relume-26c471-6320d97092ee5887eea40a637.webflow.css" rel="stylesheet" type="text/css">
+  <style>@media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="54ef6962-4205-9fca-eab0-d0a20876db62"] {-webkit-transform:translate3d(0, 3rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 3rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 3rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 3rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="8ceebc49-fc9f-faec-c704-a7cfc2b5b088"] {-webkit-transform:translate3d(0, 3rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 3rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 3rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 3rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}}@media (max-width:991px) and (min-width:768px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="54ef6962-4205-9fca-eab0-d0a20876db62"] {height:0px;}html.w-mod-js:not(.w-mod-ix) [data-w-id="8ceebc49-fc9f-faec-c704-a7cfc2b5b088"] {height:0px;}}@media (max-width:767px) and (min-width:480px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="54ef6962-4205-9fca-eab0-d0a20876db62"] {height:0px;}html.w-mod-js:not(.w-mod-ix) [data-w-id="8ceebc49-fc9f-faec-c704-a7cfc2b5b088"] {height:0px;}}@media (max-width:479px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="54ef6962-4205-9fca-eab0-d0a20876db62"] {height:0px;}html.w-mod-js:not(.w-mod-ix) [data-w-id="8ceebc49-fc9f-faec-c704-a7cfc2b5b088"] {height:0px;}}</style>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["EB Garamond:regular,500,600,700,800,italic,500italic,600italic,700italic,800italic"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon"><!--  Please keep this css code to improve the font quality -->
+  <style>
+  * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+</style>
+  <!--  You can remove this  -->
+  <meta name="facebook-domain-verification" content="mlk59ybu44651lzcbhhxjfl8vfae8q">
+</head>
+<body class="body">
+  <div class="page-wrapper">
+    <div class="global-styles w-embed">
+      <style>
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+/* 
+Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+*/
+/*
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+*/
+/* Prevent all click and hover interaction with an element */
+.pointer-events-off {
+	pointer-events: none;
+}
+/* Enables all click and hover interaction with an element */
+.pointer-events-on {
+  pointer-events: auto;
+}
+/* Snippet enables you to add class of div-square which creates and maintains a 1:1 dimension of a div.*/
+.div-square::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+/*Hide focus outline for main content element*/
+    main:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+/* Make sure containers never lose their center alignment*/
+.container-medium, .container-small, .container-large {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+/*Reset selects, buttons, and links styles*/
+.w-input, .w-select, a {
+color: inherit;
+text-decoration: inherit;
+font-size: inherit;
+}
+/*Apply "..." after 3 lines of text */
+.text-style-3lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+/* Apply "..." at 100% width */
+.truncate-width { 
+		width: 100%; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+/* Removes native scrollbar */
+.no-scrollbar {
+    -ms-overflow-style: none;  // IE 10+
+    overflow: -moz-scrollbars-none;  // Firefox
+}
+.no-scrollbar::-webkit-scrollbar {
+    display: none; // Safari and Chrome
+}
+/* Adds inline flex display */
+.display-inlineflex {
+  display: inline-flex;
+}
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+@media screen and (max-width: 991px), 
+  @media screen and (max-width: 767px), 
+  @media screen and (max-width: 479px){
+    .hide, .hide-tablet{
+      display: none !important;
+    }
+  }
+  @media screen and (max-width: 767px)
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+  }
+  @media screen and (max-width: 479px)
+    .hide-mobile{
+      display: none !important;
+    }
+  }
+.margin-0 {
+  margin: 0rem !important;
+}
+.padding-0 {
+  padding: 0rem !important;
+}
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+</style>
+    </div>
+    <main class="main-wrapper">
+      <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar background-color-transparent shadow-bottom-custom w-nav">
+        <div class="container max-width-full w-container">
+          <div class="nav-container font-franklingc">
+            <div class="nav-item-container">
+              <div class="nav-item border-right-custom width-rem-custom">
+                <a href="#" class="link">Adventures</a>
+              </div>
+              <div class="nav-item border-right-custom width-rem-custom">
+                <a href="#">About us</a>
+              </div>
+            </div>
+            <div class="nav-logo"><img src="images/svgexport-1.svg" loading="lazy" height="30" alt=""></div>
+            <div class="nav-item-container">
+              <div class="nav-item width-rem-custom border-left-custom">
+                <a href="#">Help center</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <header class="section_header76">
+        <div class="padding-section-xsmall">
+          <div class="w-layout-grid header76_component">
+            <div class="header76_images-layout">
+              <div id="w-node-_84836773-acc9-e4ae-fd1a-5c4bbb99ed1a-880ad401" class="image-container transform-down">
+                <ul id="w-node-a0bd9b17-4f20-b80c-d870-1f2b6f01cc4c-880ad401" role="list" class="list">
+                  <li class="list-item">
+                    <div class="margin-bottom margin-large">
+                      <div class="padding-bottom-custom background-grid-color1 position-relative">
+                        <div class="margin-bottom position-absolute max-hw"><img src="images/1vid.webp" loading="lazy" srcset="images/1vid-p-500.webp 500w, images/1vid-p-800.webp 800w, images/1vid-p-1080.webp 1080w, images/1vid.webp 1200w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 29vw, (max-width: 991px) 30vw, 33vw" alt="" class="max-hw fit-cover"></div>
+                        <div class="margin-bottom position-absolute max-hw text-align-center">
+                          <div class="padding-custom-a max-hw custom-vert-flex">
+                            <div class="margin-bottom">
+                              <h1 class="font-kabel text-style-allcaps text-size1 text-color-orange">arctic<br>sail<br>to ski</h1>
+                              <div class="font-garamond text-weight-medium text-size-mini-1">Lyngen Alps, Norway</div>
+                            </div>
+                            <div class="margin-bottom">
+                              <h6 class="font-franklingc text-style-allcaps text-size-mini-2">2 spots left</h6>
+                              <div class="font-garamond text-weight-semibold text-size-mini-3"><span class="text-style-italic">Starting from</span> $2.200</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="margin-bottom margin-large">
+                      <div class="padding-bottom-custom background-grid-color2 position-relative">
+                        <div class="margin-bottom position-absolute max-hw"><img src="images/4pic.webp" loading="lazy" srcset="images/4pic-p-500.webp 500w, images/4pic-p-800.webp 800w, images/4pic-p-1080.webp 1080w, images/4pic.webp 1200w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 29vw, (max-width: 991px) 30vw, 33vw" alt="" class="max-hw fit-cover"></div>
+                        <div class="margin-bottom position-absolute max-hw text-align-center">
+                          <div class="padding-custom-a max-hw custom-vert-flex">
+                            <div class="margin-bottom">
+                              <h1 class="font-sequel text-style-allcaps text-size4 text-color-white">paramotor<br>safari</h1>
+                              <div class="font-garamond text-weight-medium text-size-mini-1">Skeleton Bay, Namibia</div>
+                            </div>
+                            <div class="margin-bottom text-color-white">
+                              <div class="font-garamond text-weight-semibold text-size-mini-3"><span class="text-style-italic">Starting from</span> $2.200</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="margin-bottom margin-small margin-large">
+                      <div class="padding-bottom-custom background-grid-color3 position-relative">
+                        <div class="margin-bottom position-absolute max-hw custom-grid-padding-3"><img src="images/7pic.webp" loading="lazy" srcset="images/7pic-p-500.webp 500w, images/7pic-p-800.webp 800w, images/7pic-p-1080.webp 1080w, images/7pic.webp 1200w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 29vw, (max-width: 991px) 30vw, 33vw" alt="" class="max-hw fit-cover"></div>
+                        <div class="margin-bottom position-absolute max-hw text-align-center">
+                          <div class="padding-custom-a max-hw custom-vert-flex">
+                            <div class="margin-bottom">
+                              <h1 class="font-garamondcon text-style-allcaps text-size7 text-color-mustard">surfs<br>girls<br>only</h1>
+                              <div class="font-garamond text-weight-medium text-size-mini-1 left">Atolls, The Maldive Islands</div>
+                            </div>
+                            <div class="margin-bottom">
+                              <h6 class="font-franklingc text-style-allcaps text-size-mini-2">sold out</h6>
+                              <div class="font-garamond text-weight-semibold text-size-mini-3 text-color-grey"><span class="text-style-italic">Starting from</span> $2.200</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div id="w-node-_13b0bae8-ccca-adf3-eee7-368b35d302ad-880ad401" class="image-container">
+                <ul id="w-node-_13b0bae8-ccca-adf3-eee7-368b35d302ae-880ad401" role="list" class="list">
+                  <li class="list-item">
+                    <div class="margin-bottom margin-large">
+                      <div class="padding-bottom-custom background-grid-color4 position-relative">
+                        <div class="margin-bottom position-absolute max-hw"><img src="images/2pic.webp" loading="lazy" srcset="images/2pic-p-500.webp 500w, images/2pic-p-800.webp 800w, images/2pic-p-1080.webp 1080w, images/2pic.webp 1200w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 29vw, (max-width: 991px) 30vw, 33vw" alt="" class="max-hw fit-cover"></div>
+                        <div class="margin-bottom position-absolute max-hw text-align-center">
+                          <div class="padding-custom-a max-hw custom-vert-flex">
+                            <div class="margin-bottom">
+                              <h1 class="font-garamondcon text-style-allcaps text-size2 text-color-white">sushi<br>powder</h1>
+                              <div class="font-garamond text-weight-medium text-size-mini-1 text-color-white">Niseko, Japan</div>
+                            </div>
+                            <div class="margin-bottom">
+                              <div class="font-garamond text-weight-semibold text-size-mini-3"><span class="text-style-italic">Starting from</span> $2.200</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="margin-bottom margin-large">
+                      <div class="padding-bottom-custom background-grid-color4 position-relative">
+                        <div class="margin-bottom position-absolute max-hw"><img src="images/5pic.webp" loading="lazy" srcset="images/5pic-p-500.webp 500w, images/5pic-p-800.webp 800w, images/5pic-p-1080.webp 1080w, images/5pic.webp 1200w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 29vw, (max-width: 991px) 30vw, 33vw" alt="" class="max-hw fit-cover"></div>
+                        <div class="margin-bottom position-absolute max-hw text-align-center">
+                          <div class="padding-custom-a max-hw custom-vert-flex">
+                            <div class="margin-bottom">
+                              <h1 class="font-kabel text-style-allcaps text-size5"><span class="text-span-2">haute route</span> ski tour</h1>
+                              <div class="font-garamond text-weight-medium text-size-mini-1 left">Chamonix - Zermatt, French-Swiss Alps</div>
+                            </div>
+                            <div class="margin-bottom">
+                              <div class="font-garamond text-weight-semibold text-size-mini-3"><span class="text-style-italic">Starting from</span> $2.200</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="margin-bottom margin-large">
+                      <div class="padding-bottom-custom background-grid-color5 position-relative">
+                        <div class="margin-bottom position-absolute max-hw custom-grid-padding-1"><img src="images/8pic.webp" loading="lazy" srcset="images/8pic-p-500.webp 500w, images/8pic-p-800.webp 800w, images/8pic-p-1080.webp 1080w, images/8pic.webp 1200w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 29vw, (max-width: 991px) 30vw, 33vw" alt="" class="max-hw fit-cover"></div>
+                        <div class="margin-bottom position-absolute max-hw text-align-center">
+                          <div class="padding-custom-a max-hw custom-vert-flex">
+                            <div class="margin-bottom">
+                              <h1 class="font-garamondcon text-style-allcaps text-size8 text-color-white">sand<br>of gobi</h1>
+                              <div class="font-garamond text-weight-medium text-size-mini-1">Gobi Desert, Mongolia</div>
+                            </div>
+                            <div class="margin-bottom">
+                              <h6 class="font-franklingc text-color-white text-style-allcaps text-size-mini-2">coming soon</h6>
+                              <div class="font-garamond text-weight-semibold text-size-mini-3 text-color-grey"><span class="text-style-italic">Starting from</span> $2.200</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div id="w-node-_6457e60e-6371-bd00-e123-d6db6c199fad-880ad401" class="image-container transform-down">
+                <ul id="w-node-_6457e60e-6371-bd00-e123-d6db6c199fae-880ad401" role="list" class="list">
+                  <li class="list-item">
+                    <div class="margin-bottom margin-large">
+                      <div class="padding-bottom-custom background-grid-color6 position-relative">
+                        <div class="margin-bottom position-absolute max-hw"><img src="images/3pic.webp" loading="lazy" srcset="images/3pic-p-500.webp 500w, images/3pic-p-800.webp 800w, images/3pic-p-1080.webp 1080w, images/3pic.webp 1200w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 29vw, (max-width: 991px) 30vw, 33vw" alt="" class="max-hw fit-cover"></div>
+                        <div class="margin-bottom position-absolute max-hw text-align-center">
+                          <div class="padding-custom-a max-hw custom-vert-flex">
+                            <div class="margin-bottom">
+                              <h1 class="font-sequel text-style-allcaps text-size3 text-color-orange">caucassus<br>catskiing</h1>
+                              <div class="font-garamond text-weight-medium text-size-mini-1 text-color-white">Bahkmaro, Georgia</div>
+                            </div>
+                            <div class="margin-bottom">
+                              <h6 class="font-franklingc text-style-allcaps text-size-mini-2">1 spot left</h6>
+                              <div class="font-garamond text-weight-semibold text-size-mini-3"><span class="text-style-italic">Starting from</span> $2.200</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="margin-bottom margin-large">
+                      <div class="padding-bottom-custom background-grid-color6 position-relative">
+                        <div class="margin-bottom position-absolute max-hw custom-grid-padding-2"><img src="images/6vid.webp" loading="lazy" srcset="images/6vid-p-500.webp 500w, images/6vid-p-800.webp 800w, images/6vid-p-1080.webp 1080w, images/6vid.webp 1200w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 23vw, (max-width: 991px) 24vw, 26vw" alt="" class="max-hw fit-cover"></div>
+                        <div class="margin-bottom position-absolute max-hw text-align-center">
+                          <div class="padding-custom-a max-hw custom-vert-flex">
+                            <div class="margin-bottom">
+                              <h1 class="font-sequel text-style-allcaps text-size6">surf<br>ranch</h1>
+                              <div class="font-garamond text-weight-medium text-size-mini-1 left">Leemore, California, USA</div>
+                            </div>
+                            <div class="margin-bottom">
+                              <h6 class="font-franklingc text-style-allcaps text-size-mini-2">coming soon</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="margin-bottom margin-large">
+                      <div class="padding-bottom-custom background-grid-color4 position-relative">
+                        <div class="margin-bottom position-absolute max-hw"><img src="images/9pic.webp" loading="lazy" srcset="images/9pic-p-500.webp 500w, images/9pic-p-800.webp 800w, images/9pic-p-1080.webp 1080w, images/9pic.webp 1200w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 29vw, (max-width: 991px) 30vw, 33vw" alt="" class="max-hw fit-cover"></div>
+                        <div class="margin-bottom position-absolute max-hw text-align-center">
+                          <div class="padding-custom-a max-hw custom-vert-flex">
+                            <div class="margin-bottom">
+                              <h1 class="font-kabel text-style-allcaps text-size9 text-color-mustard">surf<br>training</h1>
+                              <div class="font-garamond text-weight-medium text-size-mini-1">Lanzarote, Canary Islands</div>
+                            </div>
+                            <div class="margin-bottom">
+                              <h6 class="font-franklingc text-color-white text-style-allcaps text-size-mini-2">sold out</h6>
+                              <div class="font-garamond text-weight-semibold text-size-mini-3 text-color-grey"><span class="text-style-italic">Starting from</span> $2.200</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <header class="section_header63">
+        <div class="padding-global">
+          <div class="container-small">
+            <div class="padding-section-large">
+              <div class="text-align-center">
+                <div class="margin-bottom margin-xsmall font-franklingc">
+                  <h5 class="text-style-allcaps font-orange">join our community</h5>
+                </div>
+                <div class="margin-bottom margin-small font-garamond">
+                  <h1>Be notified with <span class="text-span">new trips,<br>gear reviews &amp; special<br>offers</span></h1>
+                </div>
+                <div class="margin-top margin-medium">
+                  <div class="header63_form-block w-form">
+                    <form id="email-form" name="email-form" data-name="Email Form" method="get" class="header63_form"><input type="email" class="form-input w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Your email address" id="email-2" required=""><img src="images/svgexport-2.svg" loading="lazy" id="w-node-da29ea3c-d7f7-7364-115c-398c7dabad2d-880ad401" alt="" class="image-2"></form>
+                    <div class="success-message w-form-done">
+                      <div>Thank you! Your submission has been received!</div>
+                    </div>
+                    <div class="error-message w-form-fail">
+                      <div>Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <header class="section_header76">
+        <div class="padding-section-large">
+          <div class="w-layout-grid header76_component">
+            <div class="header76_images-layout">
+              <div id="w-node-_9036aca3-ad9a-eb96-f046-19bdd350d681-880ad401" class="image-container transform-down">
+                <ul id="w-node-_9036aca3-ad9a-eb96-f046-19bdd350d682-880ad401" role="list" class="list">
+                  <li class="list-item">
+                    <div class="margin-bottom margin-large">
+                      <div class="padding-bottom-custom background-grid-color7 position-relative">
+                        <div class="margin-bottom position-absolute max-hw"><img src="images/1.jpg" loading="lazy" srcset="images/1-p-500.jpg 500w, images/1-p-800.jpg 800w, images/1.jpg 1080w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 29vw, (max-width: 991px) 30vw, 33vw" alt="" class="max-hw fit-cover"></div>
+                        <div class="margin-bottom position-absolute max-hw text-align-center">
+                          <div class="padding-custom-a max-hw custom-vert-flex">
+                            <div class="margin-bottom">
+                              <h1 class="font-garamond text-style-allcaps text-size11 text-color-white"><span class="text-size11-a">the himalayan</span><br>traverse</h1>
+                              <div class="font-garamond text-weight-medium text-size-mini-1 text-color-white">Ladakh, India</div>
+                            </div>
+                            <div class="margin-bottom">
+                              <h6 class="font-franklingc text-style-allcaps text-size-mini-2">coming soon</h6>
+                              <div class="font-garamond text-weight-semibold text-size-mini-3 text-color-grey"><span class="text-style-italic">Starting from</span> $2.200</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="margin-bottom margin-large">
+                      <div class="padding-bottom-custom background-grid-color3 position-relative">
+                        <div class="margin-bottom position-absolute max-hw custom-grid-padding-4"><img src="images/2.jpg" loading="lazy" srcset="images/2-p-500.jpg 500w, images/2-p-800.jpg 800w, images/2-p-1080.jpg 1080w, images/2.jpg 1500w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 18vw, (max-width: 991px) 19vw, 20vw" alt="" class="max-hw fit-cover"></div>
+                        <div class="margin-bottom position-absolute max-hw text-align-center">
+                          <div class="padding-custom-a max-hw custom-vert-flex">
+                            <div class="margin-bottom">
+                              <h1 class="font-kabel text-style-allcaps text-size14 text-color-ltorange">malle<br>mile<br>race</h1>
+                              <div class="font-garamond text-weight-medium text-size-mini-1 left text-color-white">Grimsthorpe Castle, UK</div>
+                            </div>
+                            <div class="margin-bottom">
+                              <h6 class="font-franklingc text-style-allcaps text-size-mini-2">coming soon</h6>
+                              <div class="font-garamondcon text-weight-semibold text-size-mini-3 text-color-grey"><span class="text-style-italic">Starting from</span> $2.200</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="margin-bottom margin-small margin-large">
+                      <div class="padding-bottom-custom background-grid-color4 position-relative">
+                        <div class="margin-bottom position-absolute max-hw custom-grid-padding-5"><img src="images/3_1.webp" loading="lazy" srcset="images/3_1-p-500.webp 500w, images/3_1-p-800.webp 800w, images/3_1-p-1080.webp 1080w, images/3_1.webp 1200w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 24vw, (max-width: 991px) 25vw, 27vw" alt="" class="max-hw fit-cover"></div>
+                        <div class="margin-bottom position-absolute max-hw text-align-center">
+                          <div class="padding-custom-a max-hw custom-vert-flex">
+                            <div class="margin-bottom">
+                              <h1 class="font-kabel text-style-allcaps text-size16 text-color-orange">local<br>rule<br>open<br>cup</h1>
+                              <div class="font-garamond text-weight-medium text-size-mini-1 left text-color-white">Algarve, Portugal</div>
+                            </div>
+                            <div class="margin-bottom">
+                              <h6 class="font-franklingc text-style-allcaps text-size-mini-2">sold out</h6>
+                              <div class="font-garamondcon text-weight-semibold text-size-mini-3 text-color-grey"><span class="text-style-italic">Starting from</span> $2.200</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div id="w-node-_9036aca3-ad9a-eb96-f046-19bdd350d68a-880ad401" class="image-container">
+                <ul id="w-node-_9036aca3-ad9a-eb96-f046-19bdd350d68b-880ad401" role="list" class="list">
+                  <li class="list-item">
+                    <div class="margin-bottom margin-large">
+                      <div class="padding-bottom-custom background-grid-color8 position-relative">
+                        <div class="margin-bottom position-absolute max-hw"><img src="images/4.jpg" loading="lazy" srcset="images/4-p-500.jpg 500w, images/4-p-800.jpg 800w, images/4-p-1080.jpg 1080w, images/4-p-1600.jpg 1600w, images/4.jpg 1920w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 29vw, (max-width: 991px) 30vw, 33vw" alt="" class="max-hw fit-cover"></div>
+                        <div class="margin-bottom position-absolute max-hw text-align-center">
+                          <div class="padding-custom-a max-hw custom-vert-flex">
+                            <div class="margin-bottom">
+                              <h1 class="font-sangbleu text-style-allcaps text-size12 text-color-mustard">midsummer<br>vantrip</h1>
+                              <div class="font-garamond text-weight-medium text-size-mini-1 text-color-white">The Ring Road, Iceland</div>
+                            </div>
+                            <div class="margin-bottom">
+                              <h6 class="font-franklingc text-color-white text-style-allcaps text-size-mini-2">coming soon</h6>
+                              <div class="font-garamondcon text-weight-semibold text-size-mini-3 text-color-grey"><span class="text-style-italic">Starting from</span> $2.200</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="margin-bottom margin-large">
+                      <div class="padding-bottom-custom background-grid-color4 position-relative">
+                        <div class="margin-bottom position-absolute max-hw"><img src="images/5.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 29vw, (max-width: 991px) 30vw, 33vw" srcset="images/5-p-500.jpg 500w, images/5-p-800.jpg 800w, images/5-p-1080.jpg 1080w, images/5-p-1600.jpg 1600w, images/5.jpg 2048w" alt="" class="max-hw fit-cover"></div>
+                        <div class="margin-bottom position-absolute max-hw text-align-center">
+                          <div class="padding-custom-a max-hw custom-vert-flex">
+                            <div class="margin-bottom">
+                              <h1 class="font-sequel text-style-allcaps text-size14 text-color-orange">wellness<br>surf<br>maldives</h1>
+                              <div class="font-garamond text-weight-medium text-size-mini-1">Souths Atolls, The Maldive Islands</div>
+                            </div>
+                            <div class="margin-bottom">
+                              <h6 class="font-franklingc text-style-allcaps text-size-mini-2">sold out</h6>
+                              <div class="font-garamondcon text-weight-semibold text-color-grey"><span class="text-style-italic">Starting from</span> $2.200</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="margin-bottom margin-large">
+                      <div class="padding-bottom-custom background-grid-color9 position-relative">
+                        <div class="margin-bottom position-absolute max-hw custom-grid-padding-6"><img src="images/6.jpg" loading="lazy" srcset="images/6-p-500.jpg 500w, images/6-p-800.jpg 800w, images/6.jpg 1080w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 26vw, (max-width: 991px) 27vw, 30vw" alt="" class="max-hw fit-cover"></div>
+                        <div class="margin-bottom position-absolute max-hw text-align-center">
+                          <div class="padding-custom-a max-hw custom-vert-flex">
+                            <div class="margin-bottom">
+                              <h1 class="font-garamondcon text-style-allcaps text-size17 text-color-white">white<br>dunes<br>downwind</h1>
+                              <div class="font-garamond text-weight-medium text-size-mini-1 left">Tatajuba, Brazil</div>
+                            </div>
+                            <div class="margin-bottom">
+                              <h6 class="font-franklingc text-style-allcaps text-size-mini-2">coming soon</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div id="w-node-_9036aca3-ad9a-eb96-f046-19bdd350d693-880ad401" class="image-container transform-down">
+                <ul id="w-node-_9036aca3-ad9a-eb96-f046-19bdd350d694-880ad401" role="list" class="list">
+                  <li class="list-item">
+                    <div class="margin-bottom margin-large">
+                      <div class="padding-bottom-custom background-grid-color6 position-relative">
+                        <div class="margin-bottom position-absolute max-hw"><img src="images/7.jpg" loading="lazy" srcset="images/7-p-500.jpg 500w, images/7-p-800.jpg 800w, images/7-p-1080.jpg 1080w, images/7-p-1600.jpg 1600w, images/7.jpg 2048w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 29vw, (max-width: 991px) 30vw, 33vw" alt="" class="max-hw fit-cover"></div>
+                        <div class="margin-bottom position-absolute max-hw text-align-center">
+                          <div class="padding-custom-a max-hw custom-vert-flex">
+                            <div class="margin-bottom">
+                              <h1 class="font-garamond text-style-allcaps text-size13 text-color-orange">scram africa</h1>
+                              <div class="font-garamond text-weight-medium text-size-mini-1">Sahara Desert, Morocco</div>
+                            </div>
+                            <div class="margin-bottom">
+                              <div class="font-garamond text-weight-semibold text-size-mini-3"><span class="text-style-italic">Starting from</span> $2.200</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="margin-bottom margin-large">
+                      <div class="padding-bottom-custom background-grid-color10 position-relative">
+                        <div class="margin-bottom position-absolute max-hw"><img src="images/8.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 29vw, (max-width: 991px) 30vw, 33vw" srcset="images/8-p-500.jpg 500w, images/8-p-800.jpg 800w, images/8-p-1080.jpg 1080w, images/8-p-1600.jpg 1600w, images/8-p-2000.jpg 2000w, images/8-p-2600.jpg 2600w" alt="" class="max-hw fit-cover"></div>
+                        <div class="margin-bottom position-absolute max-hw text-align-center">
+                          <div class="padding-custom-a max-hw custom-vert-flex">
+                            <div class="margin-bottom">
+                              <h1 class="font-kabel text-style-allcaps text-size15 text-color-ltorange">wim hof<br>winter<br>expedition</h1>
+                              <div class="font-garamond text-weight-medium text-size-mini-1">Mount Sniezka, Poland</div>
+                            </div>
+                            <div class="margin-bottom">
+                              <h6 class="font-franklingc text-style-allcaps text-size-mini-2">COMING SOON</h6>
+                              <div class="font-garamondcon text-weight-semibold text-size-mini-3 text-color-grey"><span class="text-style-italic">Starting from</span> $2.200</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="margin-bottom margin-large">
+                      <div class="padding-bottom-custom background-grid-color11 position-relative">
+                        <div class="margin-bottom position-absolute max-hw"><img src="images/9.jpg" loading="lazy" srcset="images/9-p-500.jpg 500w, images/9-p-800.jpg 800w, images/9-p-1080.jpg 1080w, images/9-p-1600.jpg 1600w, images/9-p-2000.jpg 2000w, images/9.jpg 2759w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 29vw, (max-width: 991px) 30vw, 33vw" alt="" class="max-hw fit-cover"></div>
+                        <div class="margin-bottom position-absolute max-hw text-align-center">
+                          <div class="padding-custom-a max-hw custom-vert-flex">
+                            <div class="margin-bottom">
+                              <h1 class="font-sangbleu text-style-allcaps text-size18 text-color-ltorange">bali to<br>java 1000</h1>
+                              <div class="font-garamond text-weight-medium text-size-mini-1">Bali, Indonesia</div>
+                            </div>
+                            <div class="margin-bottom">
+                              <h6 class="font-franklingc text-color-white text-style-allcaps text-size-mini-2">coming soon</h6>
+                              <div class="font-garamondcon text-weight-semibold text-size-mini-3 text-color-grey"><span class="text-style-italic">Starting from</span> $2.200</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="global-styles w-embed">
+            <style>
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+/* 
+Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+*/
+/*
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+*/
+/* Prevent all click and hover interaction with an element */
+.pointer-events-off {
+	pointer-events: none;
+}
+/* Enables all click and hover interaction with an element */
+.pointer-events-on {
+  pointer-events: auto;
+}
+/* Snippet enables you to add class of div-square which creates and maintains a 1:1 dimension of a div.*/
+.div-square::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+/*Hide focus outline for main content element*/
+    main:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+/* Make sure containers never lose their center alignment*/
+.container-medium, .container-small, .container-large {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+/*Reset selects, buttons, and links styles*/
+.w-input, .w-select, a {
+color: inherit;
+text-decoration: inherit;
+font-size: inherit;
+}
+/*Apply "..." after 3 lines of text */
+.text-style-3lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+/* Apply "..." at 100% width */
+.truncate-width { 
+		width: 100%; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+/* Removes native scrollbar */
+.no-scrollbar {
+    -ms-overflow-style: none;  // IE 10+
+    overflow: -moz-scrollbars-none;  // Firefox
+}
+.no-scrollbar::-webkit-scrollbar {
+    display: none; // Safari and Chrome
+}
+/* Adds inline flex display */
+.display-inlineflex {
+  display: inline-flex;
+}
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+@media screen and (max-width: 991px), 
+  @media screen and (max-width: 767px), 
+  @media screen and (max-width: 479px){
+    .hide, .hide-tablet{
+      display: none !important;
+    }
+  }
+  @media screen and (max-width: 767px)
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+  }
+  @media screen and (max-width: 479px)
+    .hide-mobile{
+      display: none !important;
+    }
+  }
+.margin-0 {
+  margin: 0rem !important;
+}
+.padding-0 {
+  padding: 0rem !important;
+}
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+</style>
+          </div>
+          <div class="global-styles w-embed">
+            <style>
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+/* 
+Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+*/
+/*
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+*/
+/* Prevent all click and hover interaction with an element */
+.pointer-events-off {
+	pointer-events: none;
+}
+/* Enables all click and hover interaction with an element */
+.pointer-events-on {
+  pointer-events: auto;
+}
+/* Snippet enables you to add class of div-square which creates and maintains a 1:1 dimension of a div.*/
+.div-square::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+/*Hide focus outline for main content element*/
+    main:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+/* Make sure containers never lose their center alignment*/
+.container-medium, .container-small, .container-large {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+/*Reset selects, buttons, and links styles*/
+.w-input, .w-select, a {
+color: inherit;
+text-decoration: inherit;
+font-size: inherit;
+}
+/*Apply "..." after 3 lines of text */
+.text-style-3lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+/* Apply "..." at 100% width */
+.truncate-width { 
+		width: 100%; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+/* Removes native scrollbar */
+.no-scrollbar {
+    -ms-overflow-style: none;  // IE 10+
+    overflow: -moz-scrollbars-none;  // Firefox
+}
+.no-scrollbar::-webkit-scrollbar {
+    display: none; // Safari and Chrome
+}
+/* Adds inline flex display */
+.display-inlineflex {
+  display: inline-flex;
+}
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+@media screen and (max-width: 991px), 
+  @media screen and (max-width: 767px), 
+  @media screen and (max-width: 479px){
+    .hide, .hide-tablet{
+      display: none !important;
+    }
+  }
+  @media screen and (max-width: 767px)
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+  }
+  @media screen and (max-width: 479px)
+    .hide-mobile{
+      display: none !important;
+    }
+  }
+.margin-0 {
+  margin: 0rem !important;
+}
+.padding-0 {
+  padding: 0rem !important;
+}
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+</style>
+          </div>
+        </div>
+      </header>
+      <header class="section_header30">
+        <div class="padding-global">
+          <div class="container-small">
+            <div class="header-100vh justify-center">
+              <div class="padding-section-large">
+                <div class="text-align-center">
+                  <div class="margin-bottom margin-small font-garamond">
+                    <h1 class="text-color-white text-size-11vw">SUSHI<br>POWDER</h1>
+                    <h5 class="text-size-1-6 text-weight-normal">Niseko, Japan</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header30_background-image-wrapper"><img src="images/jorge_abian_niseko_ii.webp" loading="lazy" srcset="images/jorge_abian_niseko_ii-p-500.webp 500w, images/jorge_abian_niseko_ii-p-800.webp 800w, images/jorge_abian_niseko_ii-p-1080.webp 1080w, images/jorge_abian_niseko_ii-p-1600.webp 1600w, images/jorge_abian_niseko_ii.webp 1920w" sizes="100vw" alt="" class="header30_background-image"></div>
+      </header>
+      <section class="section_layout31 background-color-peach">
+        <div class="padding-global">
+          <div id="w-node-a1c2cd48-9dfc-e333-f878-25ea0b65dcc3-880ad401" class="padding-section-medium">
+            <div class="layout31_content">
+              <div class="w-layout-grid layout31_item-list">
+                <div id="w-node-_3b2fa0f7-636d-7f53-98e5-ece10c6cbe5d-880ad401" class="layout31_item image-align-center"><img src="images/1.webp" loading="lazy" alt="" class="image"></div>
+                <div id="w-node-b84aac14-06d3-af1b-eb88-31617b0f2805-880ad401" class="layout31_item image-align-center"><img src="images/group-845077519.png" loading="lazy" srcset="images/group-845077519-p-500.png 500w, images/group-845077519-p-800.png 800w, images/group-845077519-p-1080.png 1080w, images/group-845077519.png 1320w" sizes="(max-width: 479px) 100vw, 90vw" alt=""></div>
+                <div id="w-node-_1676cd79-7184-fde9-8d42-75cb2c37e0c5-880ad401" class="layout31_item image-align-center"><img src="images/group-845077257.png" loading="lazy" alt=""></div>
+                <div id="w-node-_4cc616b6-4bb7-3f4c-75e8-714668ea4d4e-880ad401" class="layout31_item"><img src="images/group-845077260.png" loading="lazy" alt=""></div>
+                <div id="w-node-_66545952-0721-7bb9-1f9b-097d5df54491-880ad401" class="layout31_item image-align-center"><img src="images/helmet.png" loading="lazy" srcset="images/helmet-p-500.png 500w, images/helmet-p-800.png 800w, images/helmet-p-1080.png 1080w, images/helmet.png 1320w" sizes="(max-width: 479px) 100vw, 90vw" alt=""></div>
+                <div id="w-node-_7548f7cd-e499-5d46-6428-5b9b7f9ee152-880ad401" class="layout31_item image-align-center"><img src="images/group-845077514.png" loading="lazy" srcset="images/group-845077514-p-500.png 500w, images/group-845077514-p-800.png 800w, images/group-845077514-p-1080.png 1080w, images/group-845077514.png 1320w" sizes="(max-width: 479px) 100vw, 90vw" alt=""></div>
+                <div id="w-node-_3fb02863-6de2-3f8e-19b8-e300971be74a-880ad401" class="layout31_item image-align-center"><img src="images/jacket.png" loading="lazy" srcset="images/jacket-p-500.png 500w, images/jacket-p-800.png 800w, images/jacket-p-1080.png 1080w, images/jacket.png 1328w" sizes="(max-width: 479px) 100vw, 90vw" alt=""></div>
+                <div id="w-node-_1d474cba-a059-7fa5-5009-35707e92010a-880ad401" class="layout31_item custom-length text-align-center">
+                  <div class="margin-bottom text-align-center">
+                    <h5 class="font-franklingc text-style-allcaps">Curated gear</h5>
+                    <h1 class="font-garamond text-weight-medium">We take care of your ride and the gear</h1>
+                  </div>
+                </div>
+                <div id="w-node-_8116e86d-bffe-ea29-b5ed-592d0e458423-880ad401" class="layout31_item image-align-center"><img src="images/group-845077516.png" loading="lazy" srcset="images/group-845077516-p-500.png 500w, images/group-845077516-p-800.png 800w, images/group-845077516-p-1080.png 1080w, images/group-845077516.png 1320w" sizes="(max-width: 479px) 100vw, 90vw" alt=""></div>
+                <div id="w-node-_369d1bc4-86e9-7a3f-1e4f-e779e73b8f85-880ad401" class="layout31_item image-align-center"><img src="images/group-845077518-1.png" loading="lazy" srcset="images/group-845077518-1-p-500.png 500w, images/group-845077518-1-p-800.png 800w, images/group-845077518-1-p-1080.png 1080w, images/group-845077518-1.png 1320w" sizes="(max-width: 479px) 100vw, 90vw" alt=""></div>
+                <div id="w-node-_3bb48088-fc78-dab0-2445-bbf8167f6342-880ad401" class="layout31_item image-align-center"><img src="images/group-845077248.png" loading="lazy" alt=""></div>
+                <div id="w-node-d4b44004-f220-dfe9-083e-61559b3008ee-880ad401" class="layout31_item image-align-center"><img src="images/3.webp" loading="lazy" alt=""></div>
+                <div id="w-node-_004fa4c8-0c8a-980f-64d6-6d21ef510edf-880ad401" class="layout31_item image-align-center"><img src="images/2.webp" loading="lazy" alt=""></div>
+                <div id="w-node-c3f6678c-e871-c398-3127-cab648df05e0-880ad401" class="layout31_item image-align-center"><img src="images/group-845077515.png" loading="lazy" srcset="images/group-845077515-p-500.png 500w, images/group-845077515-p-800.png 800w, images/group-845077515-p-1080.png 1080w, images/group-845077515.png 1320w" sizes="(max-width: 479px) 100vw, 90vw" alt=""></div>
+                <div id="w-node-_0dd9dc36-4f89-9d3d-317c-9a01bf5a5512-880ad401" class="layout31_item image-align-center"><img src="images/group-845077259.png" loading="lazy" alt=""></div>
+                <div id="w-node-cbdd08d1-e1d6-6e8b-2456-1c990fbea7d4-880ad401" class="layout31_item image-align-center"><img src="images/backpack.png" loading="lazy" srcset="images/backpack-p-500.png 500w, images/backpack-p-800.png 800w, images/backpack-p-1080.png 1080w, images/backpack.png 1320w" sizes="(max-width: 479px) 100vw, 90vw" alt=""></div>
+                <div id="w-node-_2d263ff9-5515-bda0-0835-35106d516da3-880ad401" class="layout31_item image-align-center"><img src="images/gloves.png" loading="lazy" srcset="images/gloves-p-500.png 500w, images/gloves-p-800.png 800w, images/gloves-p-1080.png 1080w, images/gloves.png 1320w" sizes="(max-width: 479px) 100vw, 90vw" alt=""></div>
+                <div id="w-node-a99c8d7f-53a7-41e9-f358-1da4e5570d92-880ad401" class="layout31_item image-align-center"><img src="images/group-845077512.png" loading="lazy" srcset="images/group-845077512-p-500.png 500w, images/group-845077512-p-800.png 800w, images/group-845077512-p-1080.png 1080w, images/group-845077512.png 1188w" sizes="(max-width: 479px) 100vw, 90vw" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_gallery19 background-color-black">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="margin-bottom margin-xxlarge">
+                <div class="text-align-center">
+                  <div class="max-width-large align-center">
+                    <div class="margin-bottom">
+                      <h5 class="heading-style-h5 text-style-allcaps">community</h5>
+                    </div>
+                    <h4 class="font-garamond text-style-italic text-weight-normal">Previously <span class="underline">riding</span></h4>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery19_component">
+                <div data-delay="4000" data-animation="slide" class="gallery19_slider w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="false" id="gallery13_slider">
+                  <div class="gallery19_mask w-slider-mask">
+                    <div class="gallery19_slide w-slide">
+                      <a href="#" class="gallery19_lightbox-link w-inline-block w-lightbox">
+                        <div class="gallery19_image-wrapper"><img src="images/screen-shot-2022-10-07-at-20-53-07.png" loading="lazy" srcset="images/screen-shot-2022-10-07-at-20-53-07-p-500.png 500w, images/screen-shot-2022-10-07-at-20-53-07-p-800.png 800w, images/screen-shot-2022-10-07-at-20-53-07-p-1080.png 1080w, images/screen-shot-2022-10-07-at-20-53-07.png 1398w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 42vw, (max-width: 991px) 19vw, 20vw" alt="" class="gallery19_image"></div>
+                        <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                      </a>
+                      <div class="gallery-side-info">
+                        <h6 class="heading-style-h6 underline">Heading</h6>
+                      </div>
+                    </div>
+                    <div class="gallery19_slide w-slide">
+                      <a href="#" class="gallery19_lightbox-link w-inline-block w-lightbox">
+                        <div class="gallery19_image-wrapper"><img src="images/screen-shot-2022-10-07-at-20-57-50.png" loading="lazy" srcset="images/screen-shot-2022-10-07-at-20-57-50-p-500.png 500w, images/screen-shot-2022-10-07-at-20-57-50-p-800.png 800w, images/screen-shot-2022-10-07-at-20-57-50-p-1080.png 1080w, images/screen-shot-2022-10-07-at-20-57-50.png 1394w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 42vw, (max-width: 991px) 19vw, 20vw" alt="" class="gallery19_image"></div>
+                        <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                      </a>
+                      <div class="gallery-side-info">
+                        <h6 class="heading-style-h6 underline">Heading</h6>
+                      </div>
+                    </div>
+                    <div class="gallery19_slide w-slide">
+                      <a href="#" class="gallery19_lightbox-link w-inline-block w-lightbox">
+                        <div class="gallery19_image-wrapper"><img src="images/01_day_1_458-1.jpg" loading="lazy" srcset="images/01_day_1_458-1-p-500.jpg 500w, images/01_day_1_458-1-p-800.jpg 800w, images/01_day_1_458-1-p-1080.jpg 1080w, images/01_day_1_458-1-p-1600.jpg 1600w, images/01_day_1_458-1-p-2000.jpg 2000w, images/01_day_1_458-1-p-2600.jpg 2600w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 42vw, (max-width: 991px) 19vw, 20vw" alt="" class="gallery19_image"></div>
+                        <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                      </a>
+                      <div class="gallery-side-info">
+                        <h6 class="heading-style-h6 underline">Heading</h6>
+                      </div>
+                    </div>
+                    <div class="gallery19_slide w-slide">
+                      <a href="#" class="gallery19_lightbox-link w-inline-block w-lightbox">
+                        <div class="gallery19_image-wrapper"><img src="images/rociocayuelaskiininjapan.png" loading="lazy" alt="" class="gallery19_image"></div>
+                        <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                      </a>
+                      <div class="gallery-side-info">
+                        <h6 class="heading-style-h6 underline">Heading</h6>
+                      </div>
+                    </div>
+                    <div class="gallery19_slide w-slide">
+                      <a href="#" class="gallery19_lightbox-link w-inline-block w-lightbox">
+                        <div class="gallery19_image-wrapper"><img src="images/catskigeorgia.jpg" loading="lazy" srcset="images/catskigeorgia-p-500.jpg 500w, images/catskigeorgia-p-800.jpg 800w, images/catskigeorgia.jpg 1080w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 42vw, (max-width: 991px) 19vw, 20vw" alt="" class="gallery19_image"></div>
+                        <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                      </a>
+                      <div class="gallery-side-info">
+                        <h6 class="heading-style-h6 underline">Heading</h6>
+                      </div>
+                    </div>
+                    <div class="gallery19_slide w-slide">
+                      <a href="#" class="gallery19_lightbox-link w-inline-block w-lightbox">
+                        <div class="gallery19_image-wrapper"><img src="images/tentscampinthedesert.jpg" loading="lazy" srcset="images/tentscampinthedesert-p-500.jpg 500w, images/tentscampinthedesert-p-800.jpg 800w, images/tentscampinthedesert.jpg 1080w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 42vw, (max-width: 991px) 19vw, 20vw" alt="" class="gallery19_image"></div>
+                        <script type="application/json" class="w-json">{
+  "items": [],
+  "group": ""
+}</script>
+                      </a>
+                      <div class="gallery-side-info">
+                        <h6 class="heading-style-h6 underline">Heading</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gallery19_arrow hide-mobile-landscape w-slider-arrow-left"><img src="images/icon_slider-arrow-left.svg" loading="lazy" alt=""></div>
+                  <div class="gallery19_arrow hide-mobile-landscape w-slider-arrow-right"><img src="images/icon_slider-arrow-right.svg" loading="lazy" alt=""></div>
+                  <div class="gallery19_slide-nav w-slider-nav w-slider-nav-invert w-round"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="footer3_component background-color-black">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="line-divider"></div>
+            <div class="padding-vertical padding-xxlarge">
+              <div class="padding-bottom padding-xxlarge">
+                <div class="w-layout-grid footer3_top-wrapper">
+                  <div class="footer3_left-wrapper">
+                    <div class="margin-bottom margin-medium">
+                      <div class="footer3_details-wrapper font-garamond">
+                        <h6 class="text-weight-normal">About Us</h6>
+                        <h6 class="text-weight-normal">Help Center</h6>
+                        <h6 class="text-weight-normal">Booking &amp; cancellation</h6>
+                        <h6 class="text-weight-normal">How it works</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="margin-bottom margin-xsmall text-align-center font-sequel text-style-allcaps">
+                      <h4 class="heading-style-h4 text-color-mustard">weekly and free</h4>
+                    </div>
+                    <div class="margin-bottom margin-xsmall text-align-center font-garamond">
+                      <p class="text-size-large">The only Newsletter worth riding. Carefully<br>designed for +2000 young business<br>professionals and outdoor lovers.</p>
+                    </div>
+                    <div class="margin-top margin-medium">
+                      <div class="header63_form-block w-form">
+                        <form id="email-form" name="email-form" data-name="Email Form" method="get" class="header63_form underline-white"><input type="email" class="form-input background-color-black w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Your email address" id="email-2" required=""><img src="images/svgexport-5.svg" loading="lazy" id="w-node-e467f97a-00a0-3dee-187d-d645ead77022-880ad401" alt="" class="image-2"></form>
+                        <div class="success-message w-form-done">
+                          <div>Thank you! Your submission has been received!</div>
+                        </div>
+                        <div class="error-message w-form-fail">
+                          <div>Oops! Something went wrong while submitting the form.</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="w-node-f036840e-94a3-fb80-9f1e-23b29cd5755b-880ad401" class="footer3_right2-wrapper"><img src="images/svgexport-6.svg" loading="lazy" alt="" class="image-3"></div>
+                </div>
+              </div>
+              <div class="padding-top padding-medium">
+                <div class="footer3_bottom-wrapper">
+                  <div class="w-layout-grid footer3_legal-list">
+                    <a href="#" class="footer3_legal-link">Disclaimer</a>
+                    <a href="#" class="footer3_legal-link">General Conditions</a>
+                    <a href="#" class="footer3_legal-link">Privacy statement</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-collapse="medium" data-animation="default" data-duration="400" data-w-id="54ef6962-4205-9fca-eab0-d0a20876db2d" data-easing="ease" data-easing2="ease" role="banner" class="navbar13_component w-nav">
+        <div class="navbar13_container background-grid-color12 custom-border-radius">
+          <nav role="navigation" class="navbar13_menu w-nav-menu">
+            <div class="navbar13_menu-link-wrapper">
+              <div data-hover="true" data-delay="200" data-w-id="54ef6962-4205-9fca-eab0-d0a20876db5d" class="navbar13_menu-dropdown w-dropdown">
+                <div class="navbar13_dropdwn-toggle w-dropdown-toggle">
+                  <div class="text-color-white font-garamondcon text-style-italic text-size-regular">Choose <span class="font-franklingc text-style-normal text-style-allcaps">land</span></div>
+                </div>
+                <nav data-w-id="54ef6962-4205-9fca-eab0-d0a20876db62" class="navbar13_dropdown-list w-dropdown-list">
+                  <a href="#" class="navbar13_dropdown-link w-dropdown-link">Link Five</a>
+                  <a href="#" class="navbar13_dropdown-link w-dropdown-link">Link Six</a>
+                  <a href="#" class="navbar13_dropdown-link w-dropdown-link">Link Seven</a>
+                </nav>
+              </div>
+              <div class="line-divider vert"></div>
+              <div data-hover="true" data-delay="200" data-w-id="8ceebc49-fc9f-faec-c704-a7cfc2b5b083" class="navbar13_menu-dropdown w-dropdown">
+                <div class="navbar13_dropdwn-toggle w-dropdown-toggle">
+                  <div class="text-color-white font-garamondcon text-style-italic text-size-regular">Choose <span class="font-franklingc text-style-normal text-style-allcaps">ride</span></div>
+                </div>
+                <nav data-w-id="8ceebc49-fc9f-faec-c704-a7cfc2b5b088" class="navbar13_dropdown-list w-dropdown-list">
+                  <a href="#" class="navbar13_dropdown-link w-dropdown-link">Link Five</a>
+                  <a href="#" class="navbar13_dropdown-link w-dropdown-link">Link Six</a>
+                  <a href="#" class="navbar13_dropdown-link w-dropdown-link">Link Seven</a>
+                </nav>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=63603fc75fc55e2b290ad3fe" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+</html>
